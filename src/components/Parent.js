@@ -28,7 +28,7 @@ const ChildComponent = ({ showModal, handleButtonClick }) => {
 const Modal = () => {
   return (
     <div className="modal">
-      <h3>Modal</h3>
+      <h3>Modal Content</h3>
       <p>This is a modal component.</p>
     </div>
   );
