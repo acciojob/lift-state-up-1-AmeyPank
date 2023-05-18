@@ -18,7 +18,7 @@ const Parent = () => {
 const ChildComponent = ({ showModal, handleButtonClick }) => {
   return (
     <div className="child">
-      <h1>Modal Content</h1>
+      <h2>Child Content</h2>
       <button onClick={handleButtonClick}>Show Modal</button>
       {showModal && <Modal />}
     </div>
